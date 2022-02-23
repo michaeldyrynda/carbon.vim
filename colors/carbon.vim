@@ -1,5 +1,15 @@
 highlight clear
 
+if version > 580
+  hi clear
+  if exists("syntax_on")
+    syntax reset
+  endif
+endif
+
+set termguicolors
+set background=dark
+
 function s:highlight(group, bg, fg, style)
   let gui = a:style == '' ? '' : 'gui=' . a:style
   let fg = a:fg == '' ? '' : 'guifg=' . a:fg
