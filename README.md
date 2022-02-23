@@ -14,6 +14,8 @@ Using your plugin manager of choice, add the following to your `.vimrc` or `init
 Plug 'michaeldyrynda/carbon'
 ```
 
+Then run `:PlugInstall`.
+
 You can clone the repository and manually copy or link the theme to your `~/.vim/colors` or `~/.config/nvim/colors` folder.
 
 ```
