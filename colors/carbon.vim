@@ -137,6 +137,14 @@ call s:highlight('cssProp', '', s:carbon_Color19, '')
 call s:highlight('jsonBoolean', '', s:carbon_Color0, '')
 call s:highlight('jsonKeyword', '', s:carbon_Color6, '')
 
+" DBG
+call s:highlight('DbgCurrentLine', s:carbon_Color13, s:carbon_Color24, '')
+call s:highlight('DbgCurrentSign', s:carbon_Color13, s:carbon_Color24, '')
+call s:highlight('DbgBreakptLine', s:carbon_Color22, '', '')
+call s:highlight('DbgBreakptSign', s:carbon_Color22, '', '')
+call s:highlight('DbgCurrentStackPositionLine', '', s:carbon_Color14, '')
+call s:highlight('DbgCurrentStackPositionSign', '', s:carbon_Color14, '')
+
 highlight! link Conditional Operator
 highlight! link Folded Comment
 highlight! link IncSearch Search
