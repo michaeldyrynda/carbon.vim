@@ -145,6 +145,15 @@ call s:highlight('DbgBreakptSign', s:carbon_Color22, '', '')
 call s:highlight('DbgCurrentStackPositionLine', '', s:carbon_Color14, '')
 call s:highlight('DbgCurrentStackPositionSign', '', s:carbon_Color14, '')
 
+" lualine
+call s:highlight('lualine_b_diff_removed_normal', '', s:carbon_Color23, '')
+call s:highlight('lualine_b_diff_removed_insert', '', s:carbon_Color23, '')
+call s:highlight('lualine_b_diff_removed_visual', '', s:carbon_Color23, '')
+call s:highlight('lualine_b_diff_removed_replace', '', s:carbon_Color23, '')
+call s:highlight('lualine_b_diff_removed_command', '', s:carbon_Color23, '')
+call s:highlight('lualine_b_diff_removed_terminal', '', s:carbon_Color23, '')
+call s:highlight('lualine_b_diff_removed_active', '', s:carbon_Color23, '')
+
 highlight! link Conditional Operator
 highlight! link Folded Comment
 highlight! link IncSearch Search
