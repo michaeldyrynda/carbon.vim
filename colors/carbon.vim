@@ -189,5 +189,5 @@ highlight! link Whitespace Comment
 highlight! link SpecialKey Directory
 
 if &laststatus ==# '3'
-  call s:highlight('WinSeparator', 'None', s:carbon_Color16, '')
+  call s:highlight('WinSeparator', 'NONE', s:carbon_Color16, '')
 endif
